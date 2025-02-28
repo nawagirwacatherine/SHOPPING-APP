@@ -1,0 +1,15 @@
+.search-filter{
+    color: azure;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: linear-gradient(270deg,#DF8908 20%,#8282d8 100%);
+}
+
+input, select {
+    color: azure;
+    padding: 8px;
+    font-size: 16px;
+    background: #323232;
+}
