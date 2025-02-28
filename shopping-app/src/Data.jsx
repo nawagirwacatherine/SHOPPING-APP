@@ -40,4 +40,12 @@ const products = [
         category:"Fashion",
         price:300
     },
+
+    {
+        id:7,
+        name:"cap",
+        category:"Fashion",
+        price:200
+
+    },
 ]
