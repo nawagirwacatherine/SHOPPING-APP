@@ -14,12 +14,17 @@ const SearchFilter = ({ search, setSearch, category, setCategory, sort, setSort 
 
       <select value={category} onChange={(e) => setCategory(e.target.value)}>
         <option value="">All Categories</option>
-        <option value="Electronics">Electronics</option>
-        <option value="Fashion">Fashion</option>
+        <option value="Jerry">Jerry</option>
+        <option value="Lotion">Lotion</option>
+        <option value="Hair spray">Hair spray</option>
+        <option value="Roll-on">Roll-on</option>
+        <option value="body splash">body splash</option>
+        <option value="Skin care">Skin care</option>
+        <option value="Wig">Wig</option>
       </select>
 
       <select value={sort} onChange={(e) => setSort(e.target.value)}>
-        <option value="">Sort By</option>
+        <option value="">Price</option>
         <option value="price-low">Price: Low to High</option>
         <option value="price-high">Price: High to Low</option>
         <option value="name">Alphabetical Order</option>

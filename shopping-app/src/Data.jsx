@@ -1,50 +1,50 @@
 const products = [
     {
         id:1,
-        name:"iphone14",
-        category:"Electronics",
+        name:"Vaseline",
+        category:"Jerry",
         price:999
     },
 
     {
         id:2,
-        name:"samsungGalaxy S23",
-        category:"Electronics",
+        name:"Nivea",
+        category:"Lotion",
         price:899
     },
 
     {
         id:3,
-        name:"Nike Air Max",
-        category:"Fashion",
+        name:"Olive oil",
+        category:"Hair spray",
         price:120
     },
 
     {
     id:4,
-    name:"Adidas Sneakers",
-    category:"Fashion",
+    name:"Fa",
+    category:"roll-on",
     price:150
     },
 
     {
         id:5,
-        name:"MacBook Pro",
-        category:"Electronics",
+        name:"boby luxe",
+        category:"body splash",
         price:1999
     },
 
     {
         id:6,
-        name:"Leather Jacket",
-        category:"Fashion",
+        name:"Ntale",
+        category:"Skin care",
         price:300
     },
 
     {
         id:7,
-        name:"cap",
-        category:"Fashion",
+        name:"Brazilian",
+        category:"wig",
         price:200
 
     },

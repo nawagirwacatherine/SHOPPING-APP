@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import products from "./data.jsx"
 import SearchFilter from "./components/SearchFilter/SearchFilter.jsx"
 import ProductList from "./components/product/ProductList.jsx"
+import SkinCare from "./components/generalbody/SkinCare.jsx"
+import { TiShoppingCart } from "react-icons/ti";
 
 const App = () => {
   const [search,setSearch]  = useState("");
@@ -23,9 +25,10 @@ const App = () => {
     return 0;
   })
   return(
+    <>
 <div className="app">
 
-  <h1>Shopping Search & Filter</h1>
+ <h1> Mulungi Cosmetics Shopping app</h1> <div className="icon"><TiShoppingCart className="logo" /></div>
 <SearchFilter
 search={search} setSearch={setSearch}
 category ={category} setCategory={setCategory}
@@ -34,6 +37,10 @@ sort = {sort} setSort= {setSort}
 />
 < ProductList  products={filteredProducts}/>
 </div>
+
+< SkinCare />
+
+</>
   )
 }
 

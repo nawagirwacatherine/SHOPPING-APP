@@ -5,6 +5,7 @@
     justify-content: center;
     margin-bottom: 20px;
     background: linear-gradient(270deg,#DF8908 20%,#8282d8 100%);
+    cursor: pointer;
 }
 
 input, select {
@@ -12,4 +13,10 @@ input, select {
     padding: 8px;
     font-size: 16px;
     background: #323232;
+}
+
+.search-filter:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+    
 }
