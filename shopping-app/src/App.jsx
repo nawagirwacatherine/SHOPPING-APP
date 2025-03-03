@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import products from "./data.jsx"
 import SearchFilter from "./components/SearchFilter/SearchFilter.jsx"
 import ProductList from "./components/product/ProductList.jsx"
-import SkinCare from "./components/generalbody/SkinCare.jsx"
 import { TiShoppingCart } from "react-icons/ti";
 
 const App = () => {
@@ -37,8 +36,6 @@ sort = {sort} setSort= {setSort}
 />
 < ProductList  products={filteredProducts}/>
 </div>
-
-< SkinCare />
 
 </>
   )
