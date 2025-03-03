@@ -1,4 +1,4 @@
-
+import "./bodysplash.css"
 import bodysplash from "../../images/bodysplash.jpg"
 
 const BodySplash = () => {

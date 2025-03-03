@@ -1,4 +1,4 @@
-
+import "./skincare.css"
 import  skin1 from "../../images/skin1.jpg";
 
 const SkinCare = () =>{

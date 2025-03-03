@@ -5,6 +5,7 @@ import products from "./data.jsx"
 import SearchFilter from "./components/SearchFilter/SearchFilter.jsx"
 import ProductList from "./components/product/ProductList.jsx"
 import { TiShoppingCart } from "react-icons/ti";
+import GeneralBody from "./Pages/GeneralBody.jsx"
 
 const App = () => {
   const [search,setSearch]  = useState("");
@@ -36,6 +37,9 @@ sort = {sort} setSort= {setSort}
 />
 < ProductList  products={filteredProducts}/>
 </div>
+
+
+<GeneralBody />
 
 </>
   )
