@@ -1,4 +1,9 @@
 
+.general-body{
+    display: flex;
+    flex-direction: row;
+}
+
 .generalbody-container{
     grid-template-columns: 1fr 1fr;
     gap: 30px;

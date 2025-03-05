@@ -8,12 +8,9 @@ import Jerry from "../components/body/Jerry.jsx"
 
 const GeneralBody = () => {
     return(
+     <>
+      <h1>Body deals</h1>
       <div className="general-body">
-
-        <h1>Body deals</h1>
-
-        <div className="generalbody-container">
-
 < SkinCare /> 
  < BodySplash/>
  <HairSpray/>
@@ -22,7 +19,9 @@ const GeneralBody = () => {
  <Jerry/>
 
  </div>
-      </div>
+     
+
+      </>
     )
 } 
 
