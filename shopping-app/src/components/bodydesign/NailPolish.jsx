@@ -6,7 +6,7 @@ const NailPolish = () => {
     return (
         <div className="nail-polish">
             <div className="nail-polishproducts">
-             <img src={nail} alt="" />
+             <img src={nail} alt="" className="nail" />
 
             </div>
 

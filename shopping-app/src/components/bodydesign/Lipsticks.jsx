@@ -1,7 +1,7 @@
 import "./lipstick.css"
 import lipstick from "../../images/lipstick.webp"
 
-const LipStick = ()  => {
+const Lipsticks = ()  => {
     return(
         <>
         <div className="lipstick">
@@ -16,4 +16,4 @@ const LipStick = ()  => {
     )
 }
 
-export default LipStick;
+export default Lipsticks;

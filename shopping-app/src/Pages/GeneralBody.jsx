@@ -10,7 +10,7 @@ const GeneralBody = () => {
     return(
       <div className="general-body">
 
-        <h1>Products in live</h1>
+        <h1>Body deals</h1>
 
         <div className="generalbody-container">
 
