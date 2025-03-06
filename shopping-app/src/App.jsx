@@ -7,7 +7,9 @@ import ProductList from "./components/product/ProductList.jsx"
 import { TiShoppingCart } from "react-icons/ti";
 import GeneralBody from "./Pages/GeneralBody.jsx"
 import Makeup from "./Pages/Makeup.jsx"
+import Spur from "./Pages/Spur.jsx"
 import Footer from "./Pages/Footer.jsx"
+
 
 const App = () => {
   const [search,setSearch]  = useState("");
@@ -43,6 +45,7 @@ sort = {sort} setSort= {setSort}
 
 <GeneralBody />
 <Makeup/>
+<Spur/>
 <Footer/>
 
 </>
