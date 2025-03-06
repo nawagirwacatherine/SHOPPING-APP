@@ -6,7 +6,7 @@ const Lotion = () =>{
         <div className="lotion">
 
         <div className="lotion-product"></div>
-
+         <h2>Body lotions</h2>
         <img src={lotion} alt=""  className="lotionimg"/>
 
         <div>

@@ -1,13 +1,14 @@
 import "./skinpolish.css"
 
-import skin3 from '../../images/skin3.jpg'
+import skin from '../../images/skin.webp'
 
 const SkinPolish = () => {
     return(
     <div className="skinpolish">
 
         <div className="skinpolish-product">
-          <img src={skin3} alt=""  className="skin3img"/>
+           <h2>Skin polish</h2>
+          <img src={skin} alt=""  className="skin3img"/>
         </div>
 
         <h2>all day moisturized</h2>

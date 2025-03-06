@@ -6,7 +6,7 @@ const Naturals = () =>{
     return (
      <div className="naturals">
         <div className="naturals-products">
-
+ <h2>Naturals</h2>
             <img src={natural} alt="" className='naturals-img'/>
         </div>
 

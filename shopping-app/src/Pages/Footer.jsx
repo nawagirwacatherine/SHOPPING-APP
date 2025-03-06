@@ -26,7 +26,12 @@ const Footer = () =>{
             </div>
 
             <div className="tel">
-                0751172007
+                <h3> Tel</h3>
+                <ul>
+                    <li>0751172007</li>
+                    <li>0751172007</li>
+                    <li>email</li>
+                </ul>
             </div>
         </div>
     )

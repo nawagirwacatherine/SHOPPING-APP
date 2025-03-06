@@ -7,6 +7,7 @@ const Lipsticks = ()  => {
         <div className="lipstick">
 
             <div className="lipstick-products">
+                <h2>Lipsticks</h2>
              <img src={lipstick} alt=""  className="lipstick-img"/>
             </div>
 

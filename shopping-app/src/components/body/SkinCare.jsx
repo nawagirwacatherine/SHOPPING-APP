@@ -5,6 +5,7 @@ const SkinCare = () =>{
     return(
         <div className="skin-care">
         <div>
+            <h2>Skin Care</h2>
          <img src={skin1} alt=""  className="skin1"/>
          
         </div>
