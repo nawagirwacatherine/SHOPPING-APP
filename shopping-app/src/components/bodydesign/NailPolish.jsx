@@ -12,7 +12,7 @@ const NailPolish = () => {
             </div>
 
             <div>
-                <h2>You want to paint the true beauty?</h2>
+                <h3>You want to paint the true beauty?</h3>
             </div>
         </div>
     )

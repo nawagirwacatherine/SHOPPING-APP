@@ -11,7 +11,7 @@ const Naturals = () =>{
         </div>
 
         <div>
-            <h2>Be you is the goal</h2>
+            <h3>Be you is the goal</h3>
         </div>
      </div>
     )

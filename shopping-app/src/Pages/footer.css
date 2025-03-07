@@ -1,6 +1,7 @@
 .footer{
     display: flex;
     flex-direction: row;
+    font-weight: lighter;
     background-color:grey;
     height: 300px;
 }

@@ -11,7 +11,7 @@ const SkinPolish = () => {
           <img src={skin} alt=""  className="skin3img"/>
         </div>
 
-        <h2>all day moisturized</h2>
+        <h3>all day moisturized</h3>
     </div>
     )
 }

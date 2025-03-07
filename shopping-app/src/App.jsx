@@ -1,4 +1,5 @@
 import "./App.css"
+import "../node-modules/bootstrap/dist/css/bootstrap.min.css";
 import {useState} from  "react"
 import PropTypes from "prop-types";
 import products from "./data.jsx"

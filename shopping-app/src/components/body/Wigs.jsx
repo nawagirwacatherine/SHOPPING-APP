@@ -8,12 +8,12 @@ const Wigs = () =>{
      <div className="wig-products"></div>
     <h2>Wigs</h2>
      <img src={wig2} alt="" className="wigimg" />
-     </div>
+    
 
      <div> 
-     <h2> Get a wig at an affordable price</h2>
+     <h3> Get a wig at an affordable price</h3>
         </div>
-
+        </div>
         </>
     )
 }

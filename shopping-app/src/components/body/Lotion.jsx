@@ -10,7 +10,7 @@ const Lotion = () =>{
         <img src={lotion} alt=""  className="lotionimg"/>
 
         <div>
-        <h2> Soft and smooth Skin </h2>
+        <h3> Soft and smooth Skin </h3>
         </div>
         
         </div>

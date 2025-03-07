@@ -9,7 +9,7 @@ const HairSpray = () => {
         <img src={stock} alt=""   className="stockimg" />
 
         <div>
-            <h2>Smooth and strong texture</h2>
+            <h3>Smooth and strong texture</h3>
         </div>
         </div>
     )

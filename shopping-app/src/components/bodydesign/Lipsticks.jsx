@@ -11,7 +11,7 @@ const Lipsticks = ()  => {
              <img src={lipstick} alt=""  className="lipstick-img"/>
             </div>
 
-            <div><h2>wondering a day without smooth lips</h2></div>
+            <div><h3>wondering a day without smooth lips</h3></div>
         </div>
         </>
     )
