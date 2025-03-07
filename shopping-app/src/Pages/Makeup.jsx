@@ -12,8 +12,6 @@ const Makeup = () => {
   <>
         <h1>Makeup deals</h1>
         <div className="makeup">
-
-            
         <Lipsticks/>
         <NailPolish/>
         <SkinPolish/>
