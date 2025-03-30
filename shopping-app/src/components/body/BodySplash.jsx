@@ -1,4 +1,5 @@
 import "./bodysplash.css"
+import {useState} from 'react';
 import ItemCard from '../../cart/Itemcard.jsx'
 import data from '../../cart/data.jsx'
 import bodysplash from "../../images/bodysplash.jpg"
