@@ -1,10 +1,11 @@
 import "./bodysplash.css"
-import {useState} from 'react';
+import { useState } from 'react';
 import ItemCard from '../../cart/Itemcard.jsx'
 import data from '../../cart/data.jsx'
 import bodysplash from "../../images/bodysplash.jpg"
 
 const BodySplash = () => {
+    const [showItems, setShowItems] = useState(false);
     return (
      <div className="body-splash">
         <div className="body-product"></div>
@@ -13,6 +14,7 @@ const BodySplash = () => {
 
         <div >
             <h3>Your body splash</h3>
+            <button onClick={() => setShowItems(!showItems)} className="toggle-button"></button>
            <div className="row justify-content-center">
             {data.productionData.map((item,index) =>{
             return (
