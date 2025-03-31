@@ -6,8 +6,7 @@ import GeneralBody from "./Pages/GeneralBody.jsx"
 import Makeup from "./Pages/Makeup.jsx"
 import Spur from "./Pages/Spur.jsx"
 import Footer from "./Pages/Footer.jsx"
-
-
+import Cart from "./Pages/Cart"; 
 const App = () => {
 
   const [items, setItems] = useState([]);
@@ -22,7 +21,7 @@ const App = () => {
     <>
 <div className="app">
 
- <h1> Mulungi Cosmetics Shopping app</h1> <div className="icon"><TiShoppingCart className="logo" /></div>
+ <h1> Mulungi Cosmetics Shopping app</h1> <div className="icon"><TiShoppingCart className="logo" />  <Cart /></div>
 
 </div>
 

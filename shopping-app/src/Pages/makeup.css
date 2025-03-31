@@ -2,8 +2,9 @@
 
 .makeup{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
    gap: 10px;
+   padding: 10px;
 }
 h1 {
     background: linear-gradient(260deg,rgb(227, 85, 9) 60%, rgb(5, 59, 95) 40%);
