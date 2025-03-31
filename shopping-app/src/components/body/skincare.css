@@ -1,11 +1,13 @@
 .skin1{
     height: 300px;
     width: 250px;
+    border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .skin1:hover {
     transform: scale(1.12);
+    border-radius: 10px;
     transition: 0.5s;
     cursor: grab;
 }
