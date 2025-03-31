@@ -10,7 +10,6 @@ import  Naturals from "../components/bodydesign/Naturals.jsx"
 const Makeup = () => {
     return (
   <>
-        <h1>Makeup deals</h1>
         <div className="makeup">
         <Lipsticks/>
         <NailPolish/>

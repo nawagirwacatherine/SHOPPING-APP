@@ -21,7 +21,7 @@ const App = () => {
     <>
 <div className="app">
 
- <h1> Mulungi Cosmetics Shopping app</h1> <div className="icon"><TiShoppingCart className="logo" />  <Cart /></div>
+ <h1> Cosmetics Shop</h1> <div className="icon"><TiShoppingCart className="logo" />  <Cart /></div>
 
 </div>
 

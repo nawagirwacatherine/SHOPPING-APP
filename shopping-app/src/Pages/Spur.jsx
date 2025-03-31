@@ -7,7 +7,6 @@ import MicroBladding from "../components/spur-products/MicroBladding.jsx"
 const Spur = () => {
     return(
         <>
-  <h2>Spur</h2>
 
   <div className="spur">
   < BodyScrub/>

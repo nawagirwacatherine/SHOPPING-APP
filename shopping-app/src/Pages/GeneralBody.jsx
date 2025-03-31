@@ -11,7 +11,6 @@ import { CartProvider } from "react-use-cart";
 const GeneralBody = () => {
     return(
      <>
-      <h1>Body deals</h1>
       <div className="general-body">
 
       <CartProvider>  

@@ -12,7 +12,7 @@ const BodySplash = () => {
        <h2>Body splash</h2>
         <img src={bodysplash} alt=""  className="splash"/>
 
-        <div >
+        <div className="product-list">
             <h3>Your body splash</h3>
             <button onClick={() => setShowItems(!showItems)} className="toggle-button">
                 {showItems ? "HideItems":"ShowItems"}
