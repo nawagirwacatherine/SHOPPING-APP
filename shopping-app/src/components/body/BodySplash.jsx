@@ -14,7 +14,11 @@ const BodySplash = () => {
 
         <div >
             <h3>Your body splash</h3>
-            <button onClick={() => setShowItems(!showItems)} className="toggle-button"></button>
+            <button onClick={() => setShowItems(!showItems)} className="toggle-button">
+                {showItems ? "HideItems":"ShowItems"}
+            </button>
+
+            { showItems && (
            <div className="row justify-content-center">
             {data.productionData.map((item,index) =>{
             return (
@@ -27,6 +31,7 @@ const BodySplash = () => {
             )
             })}
            </div>
+           )}
         </div>
      </div>
     );
