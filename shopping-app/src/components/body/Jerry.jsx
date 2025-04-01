@@ -17,7 +17,7 @@ const Jerry = () => {
         
 
         <div>
-            <h3>We make your skin shine bright like diamond</h3>
+            <h3>We make your skin shine </h3>
             <button onClick={()=> setShowItems(!showItems)} className="toggle-button">
                 {showItems ? "HideItems" :"showItems"}
             </button>

@@ -1,3 +1,14 @@
+
+.nail-polish h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.nail-polish h3{
+    font-size:15px;
+    font-style: oblique;
+}
+
 .nail{
     height: 200px;
     width: 250px;

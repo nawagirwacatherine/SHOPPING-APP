@@ -12,6 +12,11 @@ const Spur = () => {
   < BodyScrub/>
   < Massage/>
  < MicroBladding/>
+
+ <p> Long use of our bodies cause fatigues.<br/>
+ Select a service and from the items button.<br/>
+ You won't regret choosing our services.
+ </p>
   
   </div>
 

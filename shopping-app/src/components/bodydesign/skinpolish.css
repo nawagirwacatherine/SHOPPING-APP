@@ -1,3 +1,14 @@
+
+.skinpolish h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.skinpolish h3{
+    font-size:15px;
+    font-style: oblique;
+}
+
 .skin3img{
     height: 200px;
     width: 200px;

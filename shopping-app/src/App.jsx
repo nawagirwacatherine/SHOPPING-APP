@@ -21,7 +21,11 @@ const App = () => {
     <>
 <div className="app">
 
- <h1> Cosmetics Shop</h1> <div className="icon"><TiShoppingCart className="logo" />  <Cart /></div>
+ <h1> Cosmetics Shop</h1> 
+ <div className="icon">
+    <TiShoppingCart className="logo" />
+    <Cart />
+   </div> 
 
 </div>
 
@@ -29,6 +33,8 @@ const App = () => {
 <GeneralBody />
 <Makeup/>
 <Spur/>
+
+<hr  className="line"/>
 <Footer/>
 
 </>

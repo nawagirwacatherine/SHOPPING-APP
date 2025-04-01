@@ -10,7 +10,16 @@ import  Naturals from "../components/bodydesign/Naturals.jsx"
 const Makeup = () => {
     return (
   <>
+        
+        <p>  we are curious about your classy and elegant look.<br/>
+        Provided you trust us we shall make it happen.<br/>
+        Making up is a daily routine a classy and well kempt lady has to look at every day.<br/>
+        As a human of value and class we are here to sort out your makeup daily issues.
+
+
+        </p>
         <div className="makeup">
+
         <Lipsticks/>
         <NailPolish/>
         <SkinPolish/>

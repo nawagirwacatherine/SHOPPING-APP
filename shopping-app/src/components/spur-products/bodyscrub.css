@@ -1,5 +1,15 @@
 
 
+
+.body-scrub h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.body-scrub h3{
+    font-size:15px;
+    font-style: oblique;
+}
 .body-scrub{
     padding: 20px;
 }

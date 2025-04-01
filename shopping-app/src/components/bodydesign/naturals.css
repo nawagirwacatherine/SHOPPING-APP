@@ -1,3 +1,14 @@
+
+.naturals h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.naturals h3{
+    font-size:15px;
+    font-style: oblique;
+}
+
 .naturals-img{
     height: 200px;
     width: 250px;

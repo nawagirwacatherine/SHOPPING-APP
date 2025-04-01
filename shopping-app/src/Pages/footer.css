@@ -1,8 +1,9 @@
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     font-weight: lighter;
-    background-color:rgb(10, 0, 0);
-    color: whitesmoke;
-    height: 500px;
+    color: rgb(8, 0, 0);
+    height: 300px;
+    justify-content: center;
+
 }

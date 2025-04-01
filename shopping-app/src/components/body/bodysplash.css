@@ -1,7 +1,13 @@
 
 
-.product-list h3{
-    font-size: 20px;
+.body-splash h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.body-splash h3{
+    font-size:15px;
+    font-style: oblique;
 }
 .splash {
     border-radius: 10px;
@@ -16,9 +22,3 @@
     cursor: grab;
 }
 
-.toggle-button{
-    color: azure;
-    background-color: black;
-    border-radius: 10px;
-    font-weight: 500;
-}

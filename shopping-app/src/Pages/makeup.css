@@ -3,19 +3,18 @@
 .makeup{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-   gap: 10px;
-   padding: 10px;
-}
-h1 {
-    background: linear-gradient(260deg,rgb(227, 85, 9) 60%, rgb(5, 59, 95) 40%);
-    border-radius: 40px;
-    padding: 10px;
-    width: 70%;
+   gap: 15px;
+   padding: 30px;
+   margin: 10%;
+   justify-content: center;
 }
 
-h1:hover{
-    transform: scale(1.12);
-    transition: 0.5s;
-    color: rgb(9, 14, 19);
-    cursor: grab;
+p{
+    margin: 5%;
+    padding: 5px;
+    font-size:15px;
+    font-style: oblique;
+    
 }
+
+

@@ -1,6 +1,8 @@
 .spur{
    display: grid;
    grid-template-columns: 1fr 1fr ;
-    gap: 3px;
-    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    margin: 10%;
+    justify-content: center
 }

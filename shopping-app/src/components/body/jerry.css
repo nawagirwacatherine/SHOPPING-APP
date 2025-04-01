@@ -1,3 +1,17 @@
+
+
+
+
+.jerry h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.jerry h3{
+    font-size:15px;
+    font-style: oblique;
+}
+
 .jerryimg {
 
     height: 200px;
