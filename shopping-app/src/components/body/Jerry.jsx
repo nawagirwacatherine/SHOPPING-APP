@@ -1,6 +1,6 @@
 import "./jerry.css"
 import {useState} from 'react';
-import images1 from '../../images/images1.jpeg'
+import jerry1 from '../../images/jerry1.jpeg'
 import data from '../../cart/data.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
@@ -12,7 +12,7 @@ const Jerry = () => {
          <div className="jerryproduct"></div>
 
          <h2>Jerry</h2>
-         <img src={images1} alt=""  className="jerryimg" />
+         <img src={jerry1} alt=""  className="jerryimg" />
 
         
 

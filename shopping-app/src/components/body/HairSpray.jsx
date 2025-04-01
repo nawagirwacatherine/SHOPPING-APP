@@ -1,6 +1,6 @@
 import "./hair-spray.css"
 import {useState} from 'react';
-import stock from "../../images/stock.jpg"
+import hairspray1 from "../../images/hairspray1.jpg"
 import data from '../../cart/data.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
@@ -11,7 +11,7 @@ const HairSpray = () => {
         <div className="hair-spray">
             <div className="hair-product"></div>
             <h2>Hair Sprays</h2>
-        <img src={stock} alt=""   className="stockimg" />
+        <img src={hairspray1} alt=""   className="stockimg" />
 
         <div>
             <h3>Smooth and strong texture</h3>

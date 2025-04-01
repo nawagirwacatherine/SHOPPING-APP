@@ -22,10 +22,12 @@ const App = () => {
 <div className="app">
 
  <h1> Cosmetics Shop</h1> 
- <div className="icon">
+
+ <p>We are at your service <br/> scroll down to search your products! </p>
+
     <TiShoppingCart className="logo" />
     <Cart />
-   </div> 
+  
 
 </div>
 
