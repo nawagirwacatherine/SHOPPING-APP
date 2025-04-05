@@ -1,7 +1,7 @@
 import "./hair-spray.css"
 import {useState} from 'react';
 import hairspray1 from "../../images/hairspray1.jpg"
-import data from '../../cart/data.jsx'
+import HairSpraydata from '../../cart/HairSpraydata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const HairSpray = () => {
@@ -22,7 +22,7 @@ const HairSpray = () => {
 
             { showItems && (
            <div className="row justify-content-center">
-            {data.productionData.map((item,index) =>{
+            {HairSpraydata.productionData.map((item,index) =>{
             return (
                 <ItemCard 
                 title={item.titles}

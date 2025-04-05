@@ -18,7 +18,7 @@ const Footer = () =>{
             <div className="braches">
                 <h3>our locations</h3>
                 <ul>
-                    <li>Ngoma</li>
+                    <li>Jinja</li>
                 <li>Mengo</li>
                 <li>Entebbe</li>
                 <li>kampala</li>

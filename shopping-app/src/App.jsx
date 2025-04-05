@@ -31,13 +31,15 @@ const App = () => {
 
 </div>
 
-
+<div>
 <GeneralBody />
 <Makeup/>
 <Spur/>
 
 <hr  className="line"/>
 <Footer/>
+
+</div>
 
 </>
   )

@@ -1,7 +1,7 @@
 import "./skincare.css"
 import { useState } from 'react';
 import  skin1 from "../../images/skin1.jpg";
-import data from '../../cart/data.jsx'
+import SkinCaredata from '../../cart/SkinCaredata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const SkinCare = () =>{
@@ -22,7 +22,7 @@ const SkinCare = () =>{
 
             { showItems && (
            <div className="row justify-content-center">
-            {data.productionData.map((item,index) =>{
+            {SkinCaredata.productionData.map((item,index) =>{
             return (
                 <ItemCard 
                 title={item.titles}

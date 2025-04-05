@@ -1,7 +1,7 @@
 import "./lotion.css"
 import {useState} from 'react';
 import lotion from"../../images/lotion.gif"
-import data from '../../cart/data.jsx'
+import BodyLotiondata from '../../cart/BodyLotiondata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const Lotion = () =>{
@@ -25,7 +25,7 @@ const Lotion = () =>{
         
         { showItems && (
            <div className="row justify-content-center">
-            {data.productionData.map((item,index) =>{
+            {BodyLotiondata.productionData.map((item,index) =>{
             return (
                 <ItemCard 
                 title={item.titles}
