@@ -1,7 +1,7 @@
 import "./nailpolish.css"
 import {useState} from "react";
 import nail from "../../images/nail.jpg"
-import data from '../../cart/data.jsx'
+import Nailpolishdata from '../../cart/Nailpolishdata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 
@@ -23,7 +23,7 @@ const NailPolish = () => {
 
                 { showItems && (
            <div className="row justify-content-center">
-            {data.productionData.map((item,index) =>{
+            {Nailpolishdata.productionData.map((item,index) =>{
             return (
                 <ItemCard 
                 title={item.titles}

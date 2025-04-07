@@ -1,7 +1,7 @@
 import "./jerry.css"
 import {useState} from 'react';
 import jerry1 from '../../images/jerry1.jpeg'
-import data from '../../cart/data.jsx'
+import Jerrydata from '../../cart/Jerrydata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const Jerry = () => {
@@ -24,7 +24,7 @@ const Jerry = () => {
 
             { showItems && (
            <div className="row justify-content-center">
-            {data.productionData.map((item,index) =>{
+            {Jerrydata.productionData.map((item,index) =>{
             return (
                 <ItemCard 
                 title={item.titles}

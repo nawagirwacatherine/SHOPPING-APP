@@ -1,7 +1,7 @@
 import "./lipstick.css"
 import {useState} from "react";
 import lipstick from "../../images/lipstick.webp"
-import data from '../../cart/data.jsx'
+import Lipstickdata from '../../cart/Lipstickdata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const Lipsticks = ()  => {
@@ -25,7 +25,7 @@ const Lipsticks = ()  => {
                 {
             showItems &&
             <div className ="row justify-content-center">
-            {data.productionData.map((item,index)=>{
+            {Lipstickdata.productionData.map((item,index)=>{
                 return(
                     <ItemCard
                     title={item.titles}
