@@ -1,7 +1,7 @@
 import "./wigs.css"
 import {useState} from 'react';
 import wig2 from "../../images/wig2.jpg"
-import data from '../../cart/data.jsx'
+import Wigsdata from '../../cart/Wigsdata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const Wigs = () =>{
@@ -22,7 +22,7 @@ const Wigs = () =>{
 
      {showItems &&
      <div className ="row justify-content-center">
-        {data.productionData.map((item,index)=>{
+        {Wigsdata.productionData.map((item,index)=>{
             return(
                 <ItemCard
                 title={item.titles}
