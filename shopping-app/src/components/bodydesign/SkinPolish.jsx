@@ -1,7 +1,7 @@
 import "./skinpolish.css"
 import {useState} from "react"
 import skin from '../../images/skin.webp'
-import data from '../../cart/data.jsx'
+import SkinPolishdata from '../../cart/SkinPolishdata.jsx'
 import ItemCard from '../../cart/Itemcard.jsx'
 
 const SkinPolish = () => {
@@ -23,7 +23,7 @@ const SkinPolish = () => {
         
         { showItems && (
                       <div className="row justify-content-center">
-                       {data.productionData.map((item,index) =>{
+                       {SkinPolishdata.productionData.map((item,index) =>{
                        return (
                            <ItemCard 
                            title={item.titles}
