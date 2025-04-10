@@ -42,13 +42,13 @@ const Footer = () =>{
             </div>
 
             <div className="footer-form">
-  <h3>Contact Us</h3>
+  <h3>Order spur service </h3>
   <form action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="c41fa709-45d2-4280-a5a3-36887c5de615" />
 
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" placeholder="Your Message" required></textarea>
+    <textarea name="message" placeholder="click and detail us for service needed" required></textarea>
 
     <button type="submit">Send</button>
   </form>
