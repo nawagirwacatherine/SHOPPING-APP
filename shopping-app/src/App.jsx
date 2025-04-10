@@ -21,6 +21,7 @@ const App = () => {
     <>
 <div className="app">
 
+
  <h1> Cosmetics Shop</h1> 
 
  <p>We are at your service <br/> scroll down to search your products! </p>
@@ -29,14 +30,13 @@ const App = () => {
     <Cart />
   
 
-</div>
 
-<div>
+
+
 <GeneralBody />
 <Makeup/>
 <Spur/>
 
-<hr  className="line"/>
 <Footer/>
 
 </div>

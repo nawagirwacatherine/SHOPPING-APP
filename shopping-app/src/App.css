@@ -1,16 +1,16 @@
 
 
-*{
+/* *{
     background-color: rgb(117, 114, 100);
-    border-radius: 200px;
-}
+    
+} */
 .app {
     justify-content: center;
     align-items: center;
-    max-width: 600px;
     margin: auto;
     padding: 20px;
     text-align: center;
+    background-color: rgb(117, 114, 100);
     
     
     

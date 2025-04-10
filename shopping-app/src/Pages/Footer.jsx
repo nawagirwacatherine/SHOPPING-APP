@@ -4,6 +4,7 @@ import "./footer.css"
 
 const Footer = () =>{
     return(
+        <>
         <div className="footer">
             <div className="socials">
                 <h3>social handles</h3>
@@ -34,6 +35,8 @@ const Footer = () =>{
                 </ul>
             </div>
         </div>
+
+        </>
     )
 }
 
