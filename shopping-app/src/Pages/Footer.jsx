@@ -14,31 +14,31 @@ const Footer = () =>{
         <div className="footer">
             <div className="socials">
                 <h3>social handles</h3>
-                <ul>
-                    <p><span className="icons"><CiFacebook /></span>Glow Cosmetic shop</p>
-                    <p><span className="icons"><TiSocialYoutube /></span>Glow cosmetics shop</p>
-                    <p><span className="icons"><SlSocialInstagram /></span>@glow cosmetics</p>
-                    <p><span className="icons"><SlSocialLinkedin /></span>Glow Cosmetic shop</p>
-                </ul>
+                
+                    <p><span className="icons"><CiFacebook />Glow Cosmetics </span></p>
+                    <p><span className="icons"><TiSocialYoutube />Glow cosmetics shop</span></p>
+                    <p><span className="icons"><SlSocialInstagram />@glow cosmetics</span></p>
+                    <p><span className="icons"><SlSocialLinkedin />Glow Cosmetic shop</span></p>
+              
             </div>
 
             <div className="braches">
                 <h3>our locations</h3>
-                <ul>
-                    <p><span className="icons"><CiLocationOn /></span>Jinja</p>
-                <p> <span className="icons"><CiLocationOn /></span>Mengo</p>
-                <p> <span className="icons"><CiLocationOn /></span>Entebbe</p>
-                <p> <span className="icons"><CiLocationOn /></span>kampala</p>
-                </ul>
+               
+                    <p><span className="icons"><CiLocationOn />Jinja</span></p>
+                <p> <span className="icons"><CiLocationOn />Mengo</span></p>
+                <p> <span className="icons"><CiLocationOn />Entebbe</span></p>
+                <p> <span className="icons"><CiLocationOn />kampala</span></p>
+               
             </div>
 
             <div className="tel">
                 <h3> Tel</h3>
-                <ul>
-                    <p><span className="icons"><FaWhatsapp /></span>0751172007</p>
-                    <p><span className="icons"><LuPhoneCall /></span>0751172007</p>
-                    <p><span className="icons"><TfiEmail /></span>email</p>
-                </ul>
+                
+                    <p><span className="icons"><FaWhatsapp />0751172007</span></p>
+                    <p><span className="icons"><LuPhoneCall /> 0751172007</span></p>
+                    <p><span className="icons"><TfiEmail />email</span></p>
+                
             </div>
 
             <div className="footer-form">

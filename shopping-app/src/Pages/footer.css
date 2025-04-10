@@ -3,16 +3,31 @@
     flex-direction: row;
     font-weight: lighter;
     color: rgb(253, 253, 253);
-    height: 300px;
-    gap: 60px;
+    height: 500px;
+    gap: 100px;
     justify-content: center;
     font-size:15px;
     font-style: oblique;
     background-color: rgb(0, 4, 7);
-    margin: 10px;
+    padding: 20px;
+    align-items: center;
    
 
 }
+
+.socials{
+    max-width: 600px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+color: rgb(66, 68, 69);
+gap: 20px;
+
+}
+
+
 
 
 .footer-form form {
@@ -27,10 +42,11 @@
     border: none;
     border-radius: 5px;
     font-size: 14px;
+    background-color: rgb(25, 30, 33) ;
   }
   
   .footer-form button {
-    background-color: #fff;
+    background-color: rgb(99, 155, 193);
     color: #000;
     padding: 8px;
     border-radius: 5px;
