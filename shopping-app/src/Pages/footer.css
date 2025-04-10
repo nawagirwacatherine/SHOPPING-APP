@@ -9,6 +9,32 @@
     font-size:15px;
     font-style: oblique;
     background-color: rgb(0, 4, 7);
+    margin: 10px;
    
 
 }
+
+
+.footer-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-form input,
+  .footer-form textarea {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .footer-form button {
+    background-color: #fff;
+    color: #000;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
