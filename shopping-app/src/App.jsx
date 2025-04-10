@@ -37,9 +37,10 @@ const App = () => {
 <Makeup/>
 <Spur/>
 
-<Footer/>
+
 
 </div>
+<Footer/>
 
 </>
   )

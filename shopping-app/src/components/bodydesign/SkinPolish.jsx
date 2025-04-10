@@ -22,7 +22,7 @@ const SkinPolish = () => {
         
         
         { showItems && (
-                      <div className="row justify-content-center">
+                      <div className="row justify-content-center" >
                        {SkinPolishdata.productionData.map((item,index) =>{
                        return (
                            <ItemCard 
