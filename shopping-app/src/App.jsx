@@ -22,7 +22,7 @@ const App = () => {
 <div className="app">
 
 
- <h1> Cosmetics Shop</h1> 
+ <h1> Glow cosmetics & spur</h1> 
 
  <p>We are at your service <br/> scroll down to search your products! </p>
 
