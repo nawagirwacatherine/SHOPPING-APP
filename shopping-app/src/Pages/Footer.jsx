@@ -34,7 +34,22 @@ const Footer = () =>{
                     <li>email</li>
                 </ul>
             </div>
+
+            <div className="footer-form">
+  <h3>Contact Us</h3>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
         </div>
+
+        
 
         </>
     )
