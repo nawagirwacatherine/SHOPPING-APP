@@ -36,8 +36,10 @@ const Footer = () =>{
                 <h3> Tel</h3>
                 
                     <p><span className="icons"><FaWhatsapp />0751172007</span></p>
-                    <p><span className="icons"><LuPhoneCall /> 0751172007</span></p>
-                    <p><span className="icons"><TfiEmail />email</span></p>
+                    <p><span className="icons"><LuPhoneCall />0751172007</span></p>
+                    <p><span className="icons">cathynawagirwa@gmail.com</span></p>
+                    <hr />
+
                 
             </div>
 
