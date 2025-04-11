@@ -7,7 +7,7 @@
 .app {
     justify-content: center;
     align-items: center;
-    margin: auto;
+     margin: auto; 
     padding: 20px;
     text-align: center;
     background-color: rgb(117, 114, 100);
@@ -18,13 +18,14 @@
 
 .app h1{
     color:whitesmoke;
-    background: linear-gradient(260deg,rgb(116, 100, 92) 60%, rgb(99, 155, 193) 40%);
+    background:  rgb(99, 155, 193); 
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     border-radius: 40px;
     padding: 20px;
-    width: 50%;
+    margin: 15px;
+    width: 40%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -33,6 +34,7 @@
     transition: 0.5s;
     color: rgb(9, 14, 19);
     cursor: grab;
+    
 }
 
 .toggle-button{

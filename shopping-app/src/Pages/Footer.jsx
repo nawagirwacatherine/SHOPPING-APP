@@ -5,7 +5,6 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { TiSocialYoutube } from "react-icons/ti";
 import { FaWhatsapp } from "react-icons/fa6";
 import { LuPhoneCall } from "react-icons/lu";
-import { TfiEmail } from "react-icons/tfi";
 import "./footer.css"
 
 const Footer = () =>{
@@ -44,7 +43,7 @@ const Footer = () =>{
             </div>
 
             <div className="footer-form">
-  <h3>Order spur service </h3>
+  <h3>Order a spur service </h3>
   <form action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="c41fa709-45d2-4280-a5a3-36887c5de615" />
 
