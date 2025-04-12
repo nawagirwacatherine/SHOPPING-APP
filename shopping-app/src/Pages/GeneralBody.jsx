@@ -6,6 +6,8 @@ import Lotion from "../components/body/Lotion.jsx"
 import Wigs from "../components/body/Wigs.jsx"
 import Jerry from "../components/body/Jerry.jsx"
 import { CartProvider } from "react-use-cart";
+import { TiShoppingCart } from "react-icons/ti";
+import Cart from "./Cart.jsx"; 
 
 
 const GeneralBody = () => {
@@ -13,7 +15,8 @@ const GeneralBody = () => {
      <>
       <div className="general-body">
 
-      <CartProvider>  
+      <CartProvider>
+      <TiShoppingCart className="logo" /><Cart/>
 < SkinCare /> 
  
   <BodySplash /> 
@@ -21,8 +24,9 @@ const GeneralBody = () => {
   <Lotion />
   <Wigs />
   <Jerry />
-</CartProvider> 
 
+  
+  </CartProvider> 
  </div>
      
 
