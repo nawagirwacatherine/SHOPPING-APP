@@ -2,29 +2,29 @@ const data = {
     productionData :[{
      id:1,
      titles: 'ntale oil',
-     desc: "",
-     price:46,
+     desc: "description:smoothen your skin, anti bacterial",
+     price:"Price:46",
     },
 
     {
         id:2,
         titles: 'johnson oil',
-        desc:"",
-        price:45,
+        desc:"description:anti aging good for everyone",
+        price:"Price:45",
        },
 
        {
         id:3,
         titles: 'glycerine',
-        desc:"",
-        price:15,
+        desc:"description:brighten your skin all day and anti bacterial",
+        price:"Price:15",
        },
 
        {
         id:4,
-        titles: 'skin firming',
-        desc:"",
-        price:450,
+        titles: 'skin firming oil',
+        desc:"description: good for mothers, it puts your skin together",
+        price:"Price:450",
        },
 
     ],

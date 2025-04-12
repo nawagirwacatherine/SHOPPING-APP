@@ -13,9 +13,9 @@ const Spur = () => {
   < Massage/>
  < MicroBladding/>
 
- <p> Long use of our bodies cause fatigues.<br/>
- Select a service and from the items button.<br/>
- You won't regret choosing our services.
+ <p> Over using our bodies cause fatigue.<br/>
+ Select from the items button to relax the body muscles.<br/>
+ Make our items your priority .
  </p>
   
   </div>

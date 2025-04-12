@@ -1,4 +1,5 @@
 import { useCart } from "react-use-cart";
+import Itemcard from "../cart/Itemcard";
 
 const Cart = () => {
     

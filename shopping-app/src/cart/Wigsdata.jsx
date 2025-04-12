@@ -2,29 +2,29 @@ const data = {
     productionData :[{
      id:1,
      titles: 'Brazilian',
-     desc: "",
-     price:470,
+     desc:"description:",
+     price:"price:470",
     },
 
     {
         id:2,
         titles: 'Afro',
-        desc:"",
-        price:300,
+        desc:"description:",
+        price:"price:300",
        },
 
        {
         id:3,
         titles: 'Spikes',
-        desc:"",
-        price:150,
+        desc:"description:",
+        price:"price:150",
        },
 
        {
         id:4,
         titles: 'braid wig',
-        desc:"",
-        price:250,
+        desc:"description:",
+        price:"price:250",
        },
 
     ],
