@@ -15,13 +15,7 @@
 
 }
 
-/* .socials{
-    max-width: 600px;
-}
 
-.tel {
-  max-width: 600px;
-} */
 
 .icons{
     display: flex;
@@ -58,3 +52,17 @@ gap: 20px;
     border: none;
     font-weight: bold;
   }
+
+
+  @media(max-width:780px){
+    
+
+    .footer{
+      
+      display: flex;
+      flex-direction: column-reverse;
+      height: 1200px;
+     
+     
+    }
+}

@@ -29,3 +29,18 @@
     overflow-y: auto;
     padding: 20px;
 }
+
+
+@media(max-width:780px){
+   
+        .lotion{   margin: 5px;
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 5px;
+    }
+
+    .lotionimg{
+        width:  100px;
+        height: 100px;
+    }
+}
